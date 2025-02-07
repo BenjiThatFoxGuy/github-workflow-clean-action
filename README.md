@@ -13,7 +13,7 @@ jobs:
         - name: Checkout
           uses: actions/checkout@v2
         - name: Clean up workflow
-          uses: shanzhengliu/github-disabled-workflow-clean-action@v1
+          uses: benjithatfoxguy/github-workflow-clean-action@v1
           with:
                 delete-level: 'repo'
                 token: ${{ secrets.ACCESS_TOKEN }}
