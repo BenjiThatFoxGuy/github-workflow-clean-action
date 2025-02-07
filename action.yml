@@ -1,4 +1,4 @@
-  name: github-disabled-workflow-clean
+  name: github-workflow-clean-action
   description: 'Clean up disabled github workflow'
   branding:
     icon: 'delete'
